@@ -3,6 +3,10 @@
 #include<time.h>
 
 int main(void){
+  char name[256];
+  printf("Who are you?\n");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
   int i;
   int hc=0;
   int tc=0;
