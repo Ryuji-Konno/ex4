@@ -27,7 +27,7 @@ int main(void){
       }
   }
      printf("Heads: %d, Tails: %d\n",hc,tc);
-     if(hc>tc) printf("You won!");
-     else printf("You Lost!");
+     if(hc>tc) printf("%s won!",name);
+     else printf("%s Lost!",name);
   return 0;
 }
