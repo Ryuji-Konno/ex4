@@ -22,6 +22,8 @@ int main(void){
       tc++;
       }
   }
-     printf("Heads: %d, Tails: %d",hc,tc);
+     printf("Heads: %d, Tails: %d\n",hc,tc);
+     if(hc>tc) printf("You won!");
+     else printf("You Lost!");
   return 0;
 }
